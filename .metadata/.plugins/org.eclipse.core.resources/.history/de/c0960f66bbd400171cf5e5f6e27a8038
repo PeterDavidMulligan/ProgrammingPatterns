@@ -1,0 +1,11 @@
+/**
+ * @author Peter Mulligan
+ * 
+ * Interface to define how use in strategy pattern
+ *
+ */
+
+interface IWeaponStrategy {
+	public double getAttack();
+	public double getCritChance();
+}

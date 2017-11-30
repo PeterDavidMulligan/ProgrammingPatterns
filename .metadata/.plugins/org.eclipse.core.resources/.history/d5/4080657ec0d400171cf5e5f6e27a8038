@@ -1,0 +1,47 @@
+/**
+ * @author Peter Mulligan
+ *
+ * A Player class that get's constructed with a concrete implementation of
+ * an IWeaponStrategy and IArmourStrategy to show how the 'Strategy Pattern' works.
+ */
+class Player {
+	private IWeaponStrategy weapon;
+	private IArmourStrategy armour;
+	/**
+	 * 2 arg constructor
+	 * @param weapon The IWeaponStrategy the Player should use
+	 * @param armour The IArmourStrategy the Player should use
+	 */
+	public Player(IWeaponStrategy weapon, IArmourStrategy armour) {
+		this.weapon = weapon;
+		this.armour = armour;
+	}
+	/**
+	 * Returns the IWeaponStrategy the Player is currently using.
+	 * @return the player's current weapon
+	 */
+	public IWeaponStrategy getWeapon() {
+		return weapon;
+	}
+	/**
+	 * Returns the IArmourStrategy the Player is currently using.
+	 * @return the player's current armour
+	 */
+	public IArmourStrategy getArmour() {
+		return armour;
+	}
+	/**
+	 * Gives the Player a new IWeaponStrategy.
+	 * @param weapon the new IWeaponStrategy
+	 */
+	public void setWeapon(IWeaponStrategy weapon) {
+		this.weapon = weapon;
+	}
+	/**
+	 * Gives the Player a new IArmourStrategy.
+	 * @param weapon the new IArmourStrategy
+	 */
+	public void setArmour(IArmourStrategy armour) {
+		this.armour = armour;
+	}
+}

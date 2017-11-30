@@ -1,0 +1,10 @@
+/**
+ * @author Peter Mulligan
+ * 
+ * Interface to define a weapon's behaviour for 'Strategy Pattern' example.
+ *
+ */
+interface IWeaponStrategy {
+	public double getAttack();
+	public double getCritChance();
+}

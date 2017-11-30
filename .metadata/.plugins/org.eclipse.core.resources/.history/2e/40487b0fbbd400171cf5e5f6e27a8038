@@ -1,0 +1,4 @@
+
+interface IWeaponStrategy {
+	public int attack();
+}

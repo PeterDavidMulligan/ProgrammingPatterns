@@ -1,0 +1,18 @@
+/**
+ * @author Peter Mulligan
+ * 
+ * Interface to define a weapon's behaviour for 'Strategy Pattern' example.
+ *
+ */
+interface IWeaponStrategy {
+	/**
+	 * Calculates the attack value of the weapon.
+	 * @return attack value of weapon.
+	 */
+	public double getAttack();
+	/**
+	 * Calculates the chance the weapon has of scoring a critical hit.
+	 * @return critical chance of weapon.
+	 */
+	public double getCritChance();
+}

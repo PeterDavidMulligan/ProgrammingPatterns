@@ -1,0 +1,16 @@
+
+public class LeatherArmourStrategy implements IArmourStrategy {
+
+	@Override
+	public double getDefence() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double getBlock() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="IWeaponStrategy"/>
+<fullyQualifiedTypeName name="IArmourStrategy"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="LeatherArmourStrategy"/>
+<fullyQualifiedTypeName name="ChainArmourStrategy"/>
+<fullyQualifiedTypeName name="SwordWeaponStrategy"/>
+<fullyQualifiedTypeName name="AxeWeaponStrategy"/>
+</qualifiedTypeNameHistroy>
