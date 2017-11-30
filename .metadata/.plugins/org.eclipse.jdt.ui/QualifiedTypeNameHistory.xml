@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="IWeaponStrategy"/>
 <fullyQualifiedTypeName name="IArmourStrategy"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="LeatherArmourStrategy"/>
 <fullyQualifiedTypeName name="ChainArmourStrategy"/>
 <fullyQualifiedTypeName name="SwordWeaponStrategy"/>
@@ -11,4 +10,9 @@
 <fullyQualifiedTypeName name="java.util.Dictionary"/>
 <fullyQualifiedTypeName name="EmergencyBroadcastSystem"/>
 <fullyQualifiedTypeName name="Citizen"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="DecoratableFrame"/>
+<fullyQualifiedTypeName name="Equipment"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ShortSword"/>
 </qualifiedTypeNameHistroy>
