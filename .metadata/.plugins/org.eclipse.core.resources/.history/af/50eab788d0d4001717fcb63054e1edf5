@@ -1,0 +1,32 @@
+import java.util.HashMap;
+
+public class EmergencyBroadcastSystem implements IObservable {
+
+	private HashMap<Integer, IObserver> mCitizens;
+	private int mSubscribedCitzens = 0;
+	private String mMessage;
+	
+	public EmergencyBroadcastSystem() {
+		mCitizens = new HashMap<Integer, IObserver>();
+	}
+	
+	@Override
+	public void add(IObserver observer) {
+		mSubscribedCitzens++;
+		mCitizens.put(mSubscribedCitzens, observer);
+
+	}
+
+	@Override
+	public void remove(IObserver observer) {
+		mSubscribedCitzens--;
+		mCitizens.remove(mSubscribedCitzens, observer);
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

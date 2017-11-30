@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=StrategyPattern/src&lt;{IArmourStrategy.java[IArmourStrategy" modifiers="512" timestamp="1511929145922"/>
+<typeInfo handle="=StrategyPattern/src&lt;{IArmourStrategy.java[IArmourStrategy" modifiers="512" timestamp="1511931487531"/>
+<typeInfo handle="=ObserverPattern/src&lt;{IObservable.java[IObservable" modifiers="513" timestamp="1511935637769"/>
+<typeInfo handle="=ObserverPattern/C:\/Program Files\/Java\/jre1.8.0_101\/lib\/rt.jar&lt;java.util(Observer.class[Observer" modifiers="1537" timestamp="1472367134121"/>
+<typeInfo handle="=ObserverPattern/src&lt;{IObserver.java[IObserver" modifiers="513" timestamp="1511935577484"/>
+<typeInfo handle="=ObserverPattern/C:\/Program Files\/Java\/jre1.8.0_101\/lib\/rt.jar&lt;com.sun.corba.se.pept.encoding(InputObject.class[InputObject" modifiers="1537" timestamp="1472367134121"/>
 </typeInfoHistroy>

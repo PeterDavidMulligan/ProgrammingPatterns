@@ -7,4 +7,8 @@
 <fullyQualifiedTypeName name="ChainArmourStrategy"/>
 <fullyQualifiedTypeName name="SwordWeaponStrategy"/>
 <fullyQualifiedTypeName name="AxeWeaponStrategy"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Dictionary"/>
+<fullyQualifiedTypeName name="EmergencyBroadcastSystem"/>
+<fullyQualifiedTypeName name="Citizen"/>
 </qualifiedTypeNameHistroy>

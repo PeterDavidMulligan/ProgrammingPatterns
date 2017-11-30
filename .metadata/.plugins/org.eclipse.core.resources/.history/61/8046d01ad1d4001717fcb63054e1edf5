@@ -1,0 +1,15 @@
+/**
+ * @author Peter Mulligan
+ */
+/**
+ * Simple mock messaging 
+ *
+ */
+public class ObserverPatternExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

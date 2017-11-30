@@ -1,0 +1,13 @@
+
+public class Citizen implements IObserver {
+	private String mMessage;
+	public void update(String message) {
+		mMessage = message;
+		printMessage();
+	}
+	
+	private void printMessage() {
+		System.out.println(mMessage);
+	}
+
+}
