@@ -2,22 +2,28 @@
 
 Examples of different common programming patterns written in Java. Most have a gamey theme. Some don't.
 
-Currently includes:
-  Strategy Pattern
-  Observer Pattern
-  Decorator Pattern
+# Currently includes:
+
+### Strategy Pattern
+  
+### Observer Pattern
+  
+### Decorator Pattern
+
+### Factory Pattern
   
   
-  Strategy Pattern
+## Strategy Pattern
+  
   The strategy pattern tries to solve the issue of needing to change the algorithm an object uses at runtime.
   The strategy pattern uses interfaces to ensure a class will have a certain method, and so can be hotswapped.
   In the example provided here, there is a Player class that takes a class that implements IArmourStrategy
   and an IWeaponStrategy in it's constructor. Any weapon or armour can extend this interface and be passed in,
   and because of this the method used to generate the attack and defence values can be decided or swapped at
-  runtime. The Player can be asked for it's attack or defence value and it will just use it's current IWeaponStrategy
-  and IArmourStrategy to calculate the value.
+  runtime. The Player can be asked for it's attack or defence value and it will just use it's current IWeaponStrategy and IArmourStrategy to calculate the value.
   
-  Observer Pattern
+## Observer Pattern
+  
   The observer pattern was design to eliminate the problem of polling. If an object needs to monitor another
   objects data and do things when that data changes, it can seem intuitive to just have it ask. This is fine
   if there is only a few objects but it doesn't scale. It is easier to have the object with the data to tell
@@ -30,7 +36,7 @@ Currently includes:
   EmergencyBroadcastSystem iterates through it's HashMap of Citizens, passing them all the new message through
   their update method.
   
-  Decorator Pattern
+## Decorator Pattern
   The decorator pattern solves the issue of needing an object in multiple different configurations. No one wants
   to write deep nested if statements, and what if new configurations are need down the road? The decorator pattern
   solves this by have classes take objects as their own type in their constructor, and chaining method calls.
@@ -42,5 +48,8 @@ Currently includes:
   ShortSword and Leather armour inherit from Equipment and both take the attack/defence value from the Entity they
   got from their contructor, and add to it in their getAttack/Defence methods.
   With this setup we can make a Player, the wrap it in a ShortSword, then wrap that in a LeatherArmour, and so on and
-  so forth. When you call getAttack, you are calling the outer most layer. The outer layer calls the next layer which
-  calls the next layer, all the way to the Player.
+  so forth. When you call getAttack, you are calling the outer most layer. The outer layer calls the next layer   which calls the next layer, all the way to the Player.
+
+## Factory Pattern
+The factory pattern abstracts the process of making an object so that the object being created can change at runtime. It does this by using an interface that can be implemented by multiple concrete classes that can then be returned by a factory class. 
+In the example, I have a Factory and an Enemy interface. The Factory implementations must have a 'create()' method that returns an implementation of Enemy. Since we know that a factory will return an Enemy but not which Enemy, we can get a factory to return different enemies at runtime.
