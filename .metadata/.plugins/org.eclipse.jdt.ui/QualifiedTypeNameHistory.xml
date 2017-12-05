@@ -18,4 +18,17 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="examples.patterns.factory.SequentialFactory"/>
 <fullyQualifiedTypeName name="examples.patterns.factory.RandomEnemyFactory"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.components.XWingLaser"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.components.TieFighterLaser"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.components.Engine"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.components.Laser"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.factories.ShipFactory.SHIP_TYPE"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.ships.Ship"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.components.XWingEngine"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.components.TieFighterEngine"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.ships.XWing"/>
+<fullyQualifiedTypeName name="examples.patterns.abstract_factory.ships.TieFighter"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.JoniRegExp.Factory"/>
+<fullyQualifiedTypeName name="examples.patterns.abstractfactory.ShipBuilder"/>
+<fullyQualifiedTypeName name="examples.patterns.abstractfactory.TieFighterFactory"/>
 </qualifiedTypeNameHistroy>
