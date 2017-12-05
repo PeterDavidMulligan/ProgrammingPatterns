@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<item value="0" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
 		<item value="false" key="updateSimilarElements"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
@@ -63,7 +65,7 @@
 	<section name="javadoc">
 		<item value="package" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="C:\Users\aezur\eclipse-workspace\ObserverPattern\javadoc.xml" key="antpath"/>
+		<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
@@ -77,7 +79,7 @@
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\aezur\eclipse-workspace\" key="destdir"/>
+		<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
 			<section name="ObserverPattern">
@@ -93,6 +95,11 @@
 			<section name="DecoratorPattern">
 				<item value="C:\Users\aezur\eclipse-workspace\ObserverPattern\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\aezur\eclipse-workspace\DecoratorPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FactoryPattern">
+				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>

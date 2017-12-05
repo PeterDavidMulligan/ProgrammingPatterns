@@ -53,3 +53,6 @@ Examples of different common programming patterns written in Java. Most have a g
 ## Factory Pattern
 The factory pattern abstracts the process of making an object so that the object being created can change at runtime. It does this by using an interface that can be implemented by multiple concrete classes that can then be returned by a factory class. 
 In the example, I have a Factory and an Enemy interface. The Factory implementations must have a 'create()' method that returns an implementation of Enemy. Since we know that a factory will return an Enemy but not which Enemy, we can get a factory to return different enemies at runtime.
+
+## Abstract Factory Pattern
+The abstract factory pattern is almost identical to the factory pattern, but with an additional layer  abstraction. In this pattern, the factory itself is also abstract, so which factory is used at runtime can also be assigned dynamically.

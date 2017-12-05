@@ -15,4 +15,7 @@
 <fullyQualifiedTypeName name="Equipment"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ShortSword"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="examples.patterns.factory.SequentialFactory"/>
+<fullyQualifiedTypeName name="examples.patterns.factory.RandomEnemyFactory"/>
 </qualifiedTypeNameHistroy>
