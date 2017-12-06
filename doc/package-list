@@ -2,4 +2,5 @@ examples.patterns.abstractfactory
 examples.patterns.decorator
 examples.patterns.factory
 examples.patterns.observer
+examples.patterns.singleton
 examples.patterns.strategy
