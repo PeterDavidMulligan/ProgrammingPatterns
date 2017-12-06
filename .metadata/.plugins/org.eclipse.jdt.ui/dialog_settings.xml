@@ -65,7 +65,7 @@
 	<section name="javadoc">
 		<item value="package" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\javadoc.xml" key="antpath"/>
+		<item value="C:\Users\aezur\eclipse-workspace\SingletonPattern\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
@@ -79,27 +79,37 @@
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
+		<item value="C:\Users\aezur\eclipse-workspace\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
 			<section name="ObserverPattern">
 				<item value="C:\Users\aezur\eclipse-workspace\ObserverPattern\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\aezur\eclipse-workspace\ObserverPattern\doc" key="destdir"/>
+				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="StrategyPattern">
 				<item value="C:\Users\aezur\eclipse-workspace\StrategyPattern\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\aezur\eclipse-workspace\StrategyPattern\doc" key="destdir"/>
+				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SingletonPattern">
+				<item value="C:\Users\aezur\eclipse-workspace\SingletonPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\aezur\eclipse-workspace\SingletonPattern\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="DecoratorPattern">
-				<item value="C:\Users\aezur\eclipse-workspace\ObserverPattern\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\aezur\eclipse-workspace\DecoratorPattern\doc" key="destdir"/>
+				<item value="C:\Users\aezur\eclipse-workspace\DecoratorPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="FactoryPattern">
 				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\aezur\eclipse-workspace\FactoryPattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AbstractFactoryPattern">
+				<item value="C:\Users\aezur\eclipse-workspace\AbstractFactoryPattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\aezur\eclipse-workspace\AbstractFactoryPattern\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>
