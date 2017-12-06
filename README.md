@@ -1,6 +1,6 @@
 # ProgrammingPatterns
 
-Examples of different common programming patterns written in Java. Most have a gamey theme. Some don't.
+Examples of the gang of 4's programming patterns written in Java. Most have a gamey theme. Some don't.
 
 # Currently includes:
 
@@ -11,6 +11,8 @@ Examples of different common programming patterns written in Java. Most have a g
 ### Decorator Pattern
 
 ### Factory Pattern
+
+### Abstract Fatory Pattern
   
   
 ## Strategy Pattern
@@ -55,4 +57,7 @@ The factory pattern abstracts the process of making an object so that the object
 In the example, I have a Factory and an Enemy interface. The Factory implementations must have a 'create()' method that returns an implementation of Enemy. Since we know that a factory will return an Enemy but not which Enemy, we can get a factory to return different enemies at runtime.
 
 ## Abstract Factory Pattern
-The abstract factory pattern is almost identical to the factory pattern, but with an additional layer  abstraction. In this pattern, the factory itself is also abstract, so which factory is used at runtime can also be assigned dynamically.
+The abstract factory pattern is almost identical to the factory pattern, but with an additional layer  abstraction. In this pattern, a concrete class acts as a middle man. The client will create a Ship object by asking the ShipBuilder to build a Ship of type ShipType. The ShipBuilder takes this order and then tells the correct factory to make the specific Ship being asked for. With this extra layer of abstraction, the client can ask for different ships at runtime.
+
+## Singleton Pattern
+A lot of programmers consider the singleton pattern an anti-pattern, but for the sake of completeness it deserves a place. The singleton pattern guarantees that only a single instance of an object can ever exist. It does this by having a private constructor, a private static member variable of itself, and a static method that returns an instance of itself. The private constructor makes sure it cannot be instantiated. The static method then checks if the member variable is null, and if it is the method instantiates it and returns it. If it is not null, it just returns it. You can have all the functionality of a class, just everything has to be accessed through the 'getInstance()' method.
